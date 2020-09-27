@@ -730,9 +730,7 @@ class afitt_class(SourceModule):
 class cctbx_module(SourceModule):
   module = 'cctbx_project'
   anonymous = ['git',
-               'git@github.com:cctbx/cctbx_project.git',
-               'https://github.com/cctbx/cctbx_project.git',
-               'https://github.com/cctbx/cctbx_project/archive/master.zip']
+               'https://github.com/reliasolve/cctbx_project.git']
 
 class amber_adaptbx_module(SourceModule):
   module = 'amber_adaptbx'
